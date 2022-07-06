@@ -1,5 +1,6 @@
 body{
     margin: 0%;
+    padding: 0%;
     font-family: 'Gentium Book Plus', serif;
 }
 
@@ -112,5 +113,78 @@ body{
     margin-right: 5%;
     padding: 30px 15px;
     width: 30%;
+
+}
+
+.contribute{
+    display: flex;
+    font-size: 25px;
+}
+
+.contribute p{
+    color: grey;
+}
+.contribute img{
+    width: 500px;
+    border-radius: 5px;
+}
+.contribute a{
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: tomato;
+    color: white;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+.half-width {
+    width: 35%;
+    padding-left: 2%;
+    margin-left: 5%;
+}
+
+.update{
+    text-align: center;
+    margin: 10%;
+    font-size: 30px;
+}
+
+.update p{
+    color: grey;
+}
+
+.form{
+    padding: 70px ;
+    background-color: cornsilk;
+
+}
+
+.form a{
+    text-decoration: none;
+    padding: 7px 20px;
+    background-color: tomato;
+    color: white;
+    border-radius: 0 7px 7px 0 ;
+    font-size: 18px;
+}
+
+.form input{
+    padding-left: 10px;
+    padding: 10px ;
+    border-radius: 7px 0 0 7px ;
+    width: 200px;
+    background-color: rgb(227, 220, 220);
+    font-size: 16px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer h1 {
+    color: tomato;
 
 }
