@@ -1,3 +1,70 @@
 body{
-    margin: 0;
+    margin: 0%;
+    font-family: 'Gentium Book Plus', serif;
+}
+
+.top-banner{
+    background-image: url(images/banner.jpg); 
+    height: 500px;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    background-size: 100%;
+    font-size: 30px;
+    padding-top: 5%;
+}
+
+.top-banner a{
+    text-decoration: none;
+    padding: 10px 25px ;
+    background-color: tomato;
+    color: white;
+    border-radius: 7px;
+
+}
+
+.donate-today{
+    text-align: center;
+    font-size: 30px;
+    margin: 100px;
+}
+
+.donate-today p{
+    color: grey;
+}
+
+.donate-today a{
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: tomato;
+    color: white;
+    border-radius: 7px;
+    font-size: 25px;
+}
+
+.choose-amount{
+    display: flex;
+    justify-content: center;
+}
+
+.choose-amount div{
+  background-color: whitesmoke;
+  width: 150px;
+  margin: 20px;
+  padding: 18px;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 5px;
+  color: grey;
+}
+#highlight{
+    color: tomato;
+    border: 3px solid tomato;
+}
+
+.donate-today input{
+    font-size: 20px;
+    color: grey;
+    width: 550px;
+    margin: 30px;
 }
