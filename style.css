@@ -68,3 +68,49 @@ body{
     width: 550px;
     margin: 30px;
 }
+
+.donate-plan{
+    text-align: center;
+    margin-bottom:200px ;
+    font-size: 30px;
+}
+.donate-plan p{
+    color: grey;
+}
+.plans{
+    display: flex;
+}
+.plans p{
+    color: grey;
+}
+
+.plans div{
+    text-align: left;
+    font-size: 25px;
+    margin: 30px;
+}
+
+.food{
+    background-color: aquamarine;
+    margin-left: 5%;
+    margin-right: 20px;
+    padding: 30px 15px;
+    width: 30%;
+}
+
+.rehabilitation{
+    background-color: antiquewhite;
+    margin-left: 20px ;
+    margin-right: 20px;
+    padding: 30px 15px;
+    width: 30%;
+}
+
+.medicine{
+    background-color: aqua;
+    margin-left: 20px;
+    margin-right: 5%;
+    padding: 30px 15px;
+    width: 30%;
+
+}
